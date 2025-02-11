@@ -66,4 +66,82 @@ ALTER TABLE datamart_sales ADD PRIMARY KEY (id_invoice);
 This **Data Mart Table** allows for easier querying and analysis, providing key sales insights.  
 
 ---
+Here’s a corrected and improved version of your README continuation with better grammar, clarity, and formatting:  
+
+---
+
+## **Aggregated Tables**  
+Aggregated tables are created by summarizing and computing data from the base tables. These tables contain concise information, making data analysis faster and more efficient. The results from these tables serve as the **data source** for building the **sales report dashboard**.  
+
+### **Top Customer Aggregate Table**  
+This table aggregates total sales per customer and identifies the **top 10 customers** with the highest sales.  
+
+<details>
+  <summary><strong>Query</strong></summary>
+
+```sql
+CREATE TABLE top_customers AS
+SELECT 
+    customer_name,
+    SUM(total_sales) AS total_sales
+FROM sales_datamart
+GROUP BY customer_name
+ORDER BY total_sales DESC
+LIMIT 10;
+```
+</details>
+
+---
+
+## **Top Customer Table Preview**  
+<p align="center">
+    <img width="1000" alt="Top Customer Table" src="https://github.com/user-attachments/assets/aed7bf53-4ca0-4b8a-9f44-546484748328">
+</p>  
+
+---
+
+### **Monthly Sales by Product Table**  
+This table aggregates **total sales per product line** on a **monthly basis** for trend analysis.  
+
+<details>
+  <summary><strong>Query</strong></summary>
+
+```sql
+CREATE TABLE monthly_sales AS
+SELECT 
+    MONTHNAME(tanggal) AS bulan,
+    product_line,
+    SUM(total_sales) AS total_sales
+FROM sales_datamart
+GROUP BY bulan, product_line;
+```
+</details>
+
+---
+
+## **Monthly Sales Table Preview**  
+<p align="center">
+    <img width="1000" alt="Monthly Sales Table" src="https://github.com/user-attachments/assets/ff397144-bdd0-4680-9bff-c8add5a4dff4">
+</p>  
+
+---
+
+## 📊 **Data Visualization**  
+
+[📌 Sales Report (2022) – Looker Studio](https://lookerstudio.google.com/reporting/1cf91be9-8afb-46d7-99ff-595fb2618fce)  
+
+<p align="center">
+    <img width="1000" alt="Kimia Farma Sales Report Dashboard" src="https://github.com/user-attachments/assets/318a54ae-dc3c-489f-b641-342f85ec76bb">
+</p>  
+
+### **📈 Sales Report Dashboard – Kimia Farma 2022**  
+
+---
+
+### **Insight**:
+✅ Improved grammar and clarity.  
+✅ Fixed inconsistent formatting.  
+✅ Adjusted heading levels for better readability.  
+✅ Corrected SQL queries' formatting.  
+✅ Fixed broken image links (ensure correct URLs are used).  
 
