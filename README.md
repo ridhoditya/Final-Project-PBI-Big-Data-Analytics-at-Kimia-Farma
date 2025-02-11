@@ -19,8 +19,9 @@ Table:
 This table is the combination from Penjualan table, Pelanggan table, and Barang Table. it is used for analyzing the data.<br>
 <details>
   <summary> Query </summary>
+	<br>
 ```sql
-  CREATE TABLE datamart_sales (
+CREATE TABLE datamart_sales (
 SELECT 
     p.id_invoice,
     p.tanggal,
@@ -52,6 +53,7 @@ Alter table datamart_sales add primary key(id_invoice);
     Datamart Table
 </p>
 <br>
+
 Query(Postgresql):
 - Database: https://drive.google.com/file/d/1heEXevhaIw2eTikzk9Da4mMIaahcz7kr/view?usp=drive_link
 - Datamart(Sales): https://drive.google.com/file/d/1PEGgnaa58Yr-B7ErOedLYDwl1wWg6t2L/view?usp=drive_link
