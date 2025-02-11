@@ -92,7 +92,7 @@ LIMIT 10;
 
 ## **Top Customer Table Preview**  
 <p align="center">
-    <img width="500" alt="Top Customer Table" src="https://github.com/user-attachments/assets/aed7bf53-4ca0-4b8a-9f44-546484748328">
+    <img width="400" alt="Top Customer Table" src="https://github.com/user-attachments/assets/aed7bf53-4ca0-4b8a-9f44-546484748328">
 </p>  
 
 ---
@@ -118,7 +118,7 @@ GROUP BY bulan, product_line;
 
 ## **Monthly Sales Table Preview**  
 <p align="center">
-    <img width="500" alt="Monthly Sales Table" src="https://github.com/user-attachments/assets/ff397144-bdd0-4680-9bff-c8add5a4dff4">
+    <img width="400" alt="Monthly Sales Table" src="https://github.com/user-attachments/assets/ff397144-bdd0-4680-9bff-c8add5a4dff4">
 </p>  
 
 ---
@@ -128,17 +128,65 @@ GROUP BY bulan, product_line;
 [📌 Sales Report (2022) – Looker Studio](https://lookerstudio.google.com/reporting/1cf91be9-8afb-46d7-99ff-595fb2618fce)  
 
 <p align="center">
-    <img width="1000" alt="Kimia Farma Sales Report Dashboard" src="(https://github.com/user-attachments/assets/208f5ff8-7e2d-4c71-8cef-5eb625fe4045)">
+    <img width="1000" alt="Kimia Farma Sales Report Dashboard" src="https://github.com/user-attachments/assets/208f5ff8-7e2d-4c71-8cef-5eb625fe4045">
 </p>  
 
 ### **📈 Sales Report Dashboard – Kimia Farma 2022**  
 
 ---
+# **📊 Insight**  
+---
 
-### **Insight**:
-✅ Improved grammar and clarity.  
-✅ Fixed inconsistent formatting.  
-✅ Adjusted heading levels for better readability.  
-✅ Corrected SQL queries' formatting.  
-✅ Fixed broken image links (ensure correct URLs are used).  
+## **Overall Performance**  
+🔹 **Total Sales:** Rp. 49.2M  
+🔹 **Total Products Sold:** 9.2K  
+🔹 **Total Transactions:** 350  
 
+---
+
+## **📈 Sales Analysis**  
+
+### **Top 3 Sales by Cities**  
+1️⃣ **Jakarta (Klinik GM)** – Rp. 12.2M  
+2️⃣ **Kuningan (Apotek Maja)** – Rp. 8M  
+3️⃣ **Bekasi (Apotek Sinar Jaya)** – Rp. 6M  
+
+📌 **Average Sales Per Month:** Rp. 8.2M  
+
+### **Top 3 Sales by Product**  
+1️⃣ **Ampicillin** – Rp. 12M  
+2️⃣ **Tramadol Kapsul 50 Mg** – Rp. 8.3M  
+3️⃣ **Paracetamol** – Rp. 5.7M  
+
+---
+
+## **📢 Business Recommendations**  
+
+### **1️⃣ Warehouse & Inventory Management**  
+✅ Ensure the top 3 best-selling products (**Ampicillin, Tramadol Kapsul, Paracetamol**) are **well-stocked** to meet high demand.  
+✅ Reduce excessive stock for non-popular products to **minimize storage costs** and **prevent product expiration**.  
+
+### **2️⃣ Business Expansion Strategy**  
+✅ Expand operations in **high-potential cities** near Jakarta, such as **Depok, Bogor, Tangerang**, to **increase market reach** and **better control stock distribution**.  
+✅ Partner with **local pharmacies and clinics** in emerging cities to establish **regional distribution hubs**.  
+
+### **3️⃣ Sales & Marketing Strategy**  
+✅ Offer **promotional bundles or discounts** for high-demand products to attract more customers and increase sales.  
+✅ Implement a **loyalty program** to retain existing customers and encourage repeat purchases.  
+✅ Improve **digital presence** by expanding **online sales channels** through e-commerce platforms and digital marketing.  
+
+### **4️⃣ Customer Insights & Personalization**  
+✅ Conduct **customer surveys** to understand their needs and adjust product availability accordingly.  
+✅ Develop **personalized promotions** based on past purchases to enhance customer experience and engagement.  
+
+---
+
+## **📬 Contact**  
+
+For any questions, collaborations, or feedback, feel free to reach out:  
+
+👤 **Name:** Ridho Aditya Rachman  
+📧 **Email:** [eric.ridho88@gmail.com](mailto:eric.ridho88@gmail.com)  
+🔗 **LinkedIn:** [Ridho Aditya Rachman](https://www.linkedin.com/in/ridhoditya)  
+
+---
