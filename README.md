@@ -66,9 +66,6 @@ ALTER TABLE datamart_sales ADD PRIMARY KEY (id_invoice);
 This **Data Mart Table** allows for easier querying and analysis, providing key sales insights.  
 
 ---
-Here’s a corrected and improved version of your README continuation with better grammar, clarity, and formatting:  
-
----
 
 ## **Aggregated Tables**  
 Aggregated tables are created by summarizing and computing data from the base tables. These tables contain concise information, making data analysis faster and more efficient. The results from these tables serve as the **data source** for building the **sales report dashboard**.  
@@ -95,7 +92,7 @@ LIMIT 10;
 
 ## **Top Customer Table Preview**  
 <p align="center">
-    <img width="1000" alt="Top Customer Table" src="https://github.com/user-attachments/assets/aed7bf53-4ca0-4b8a-9f44-546484748328">
+    <img width="500" alt="Top Customer Table" src="https://github.com/user-attachments/assets/aed7bf53-4ca0-4b8a-9f44-546484748328">
 </p>  
 
 ---
@@ -121,7 +118,7 @@ GROUP BY bulan, product_line;
 
 ## **Monthly Sales Table Preview**  
 <p align="center">
-    <img width="1000" alt="Monthly Sales Table" src="https://github.com/user-attachments/assets/ff397144-bdd0-4680-9bff-c8add5a4dff4">
+    <img width="500" alt="Monthly Sales Table" src="https://github.com/user-attachments/assets/ff397144-bdd0-4680-9bff-c8add5a4dff4">
 </p>  
 
 ---
@@ -131,7 +128,7 @@ GROUP BY bulan, product_line;
 [📌 Sales Report (2022) – Looker Studio](https://lookerstudio.google.com/reporting/1cf91be9-8afb-46d7-99ff-595fb2618fce)  
 
 <p align="center">
-    <img width="1000" alt="Kimia Farma Sales Report Dashboard" src="https://github.com/user-attachments/assets/318a54ae-dc3c-489f-b641-342f85ec76bb">
+    <img width="1000" alt="Kimia Farma Sales Report Dashboard" src="(https://github.com/user-attachments/assets/208f5ff8-7e2d-4c71-8cef-5eb625fe4045)">
 </p>  
 
 ### **📈 Sales Report Dashboard – Kimia Farma 2022**  
