@@ -128,7 +128,7 @@ GROUP BY bulan, product_line;
 [📌 Sales Report (2022) – Looker Studio](https://lookerstudio.google.com/reporting/1cf91be9-8afb-46d7-99ff-595fb2618fce)  
 
 <p align="center">
-    <img width="1000" alt="Kimia Farma Sales Report Dashboard" src="https://github.com/user-attachments/assets/208f5ff8-7e2d-4c71-8cef-5eb625fe4045">
+    <img width="1000" alt="Kimia Farma Sales Report Dashboard" src="https://github.com/user-attachments/assets/22e0526f-a3c9-48ab-bc36-33adf161ddfe">
 </p>  
 
 ### **📈 Sales Report Dashboard – Kimia Farma 2022**  
