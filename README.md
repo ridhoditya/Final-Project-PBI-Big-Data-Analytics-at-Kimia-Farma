@@ -158,6 +158,12 @@ GROUP BY bulan, product_line;
 2️⃣ **Tramadol Kapsul 50 Mg** – Rp. 8.3M  
 3️⃣ **Paracetamol** – Rp. 5.7M  
 
+### 📊 **Monthly Sales Analysis**
+The sales trend declined month by month, which could indicate potential issues with inventory management or seasonal demand fluctuations. One notable observation is the significant drop in Ampicillin sales, where:
+
+January: 750 units sold <br>
+February: Only 102 units sold
+
 ---
 
 ## **📢 Business Recommendations**  
@@ -167,7 +173,7 @@ GROUP BY bulan, product_line;
 ✅ Reduce excessive stock for non-popular products to **minimize storage costs** and **prevent product expiration**.  
 
 ### **2️⃣ Business Expansion Strategy**  
-✅ Expand operations in **high-potential cities** near Jakarta, such as **Depok, Bogor, Tangerang**, to **increase market reach** and **better control stock distribution**.  
+✅ Expand operations in **high-potential cities** near Jakarta, such as **Depok, Bogor**, to **increase market reach** and **better control stock distribution**.  
 ✅ Partner with **local pharmacies and clinics** in emerging cities to establish **regional distribution hubs**.  
 
 ### **3️⃣ Sales & Marketing Strategy**  
